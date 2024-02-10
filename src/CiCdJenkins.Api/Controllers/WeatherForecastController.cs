@@ -29,5 +29,11 @@ namespace CiCdJenkins.Api.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet(Name = "Emre")]
+        public string GetEmre()
+        {
+            return "emre";
+        }
     }
 }
