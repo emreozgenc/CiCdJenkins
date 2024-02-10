@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cicdjenkins.api:
+    image: ${DOCKER_REGISTRY-}cicdjenkinsapi
+    build:
+      context: .
+      dockerfile: src/CiCdJenkins.Api/Dockerfile

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiCdJenkins.Api", "src\CiCdJenkins.Api\CiCdJenkins.Api.csproj", "{97F19774-C160-4378-BCE4-294EE35E2952}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DB1BB8AE-0F0B-490C-B63F-9431B404E20A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3BB2E3C7-3729-4E5A-9826-68A4EA9ABDF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97F19774-C160-4378-BCE4-294EE35E2952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F19774-C160-4378-BCE4-294EE35E2952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F19774-C160-4378-BCE4-294EE35E2952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F19774-C160-4378-BCE4-294EE35E2952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB2E3C7-3729-4E5A-9826-68A4EA9ABDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB2E3C7-3729-4E5A-9826-68A4EA9ABDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB2E3C7-3729-4E5A-9826-68A4EA9ABDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB2E3C7-3729-4E5A-9826-68A4EA9ABDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97F19774-C160-4378-BCE4-294EE35E2952} = {DB1BB8AE-0F0B-490C-B63F-9431B404E20A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F37495D3-4F59-4BBB-8CEC-8922F470D7AC}
+	EndGlobalSection
+EndGlobal
