@@ -9,7 +9,7 @@ namespace CiCdJenkins.Api.Controllers
         private static readonly string[] Summaries = new[]
         {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+        };
 
         private readonly ILogger<WeatherForecastController> _logger;
 
@@ -30,7 +30,7 @@ namespace CiCdJenkins.Api.Controllers
             .ToArray();
         }
 
-        [HttpGet(Name = "Emre")]
+        [HttpGet("emre")]
         public string GetEmre()
         {
             return "emre";
