@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>3bb2e3c7-3729-4e5a-9826-68a4ea9abdf6</ProjectGuid>
+    <ProjectGuid>f3503832-2e3c-4d9e-b5e0-51c1af76adfb</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>cicdjenkins.api</DockerServiceName>

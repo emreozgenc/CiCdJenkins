@@ -3,10 +3,6 @@ version: '3.4'
 services:
   cicdjenkins.api:
     image: ${DOCKER_REGISTRY-}cicdjenkinsapi
-    environment: 
-     - ASPNETCORE_ENVIRONMENT=Production
     build:
       context: .
       dockerfile: src/CiCdJenkins.Api/Dockerfile
-    ports:
-     - 5000:80

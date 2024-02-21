@@ -41,5 +41,11 @@ namespace CiCdJenkins.Api.Controllers
         {
             return "mehmet";
         }
+
+        [HttpGet("nurullah")]
+        public string GetNurullah()
+        {
+            return "nurullah";
+        }
     }
 }
